@@ -12,7 +12,7 @@ public class Smoke extends TestBase {
     
 
     @Test
-    public void testCntactCreation() {
+    public void smokeTest() {
        
     	app.goTo().homePage();
         app.button().pressOne();

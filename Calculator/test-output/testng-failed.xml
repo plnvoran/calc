@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="GroupCalc.Calculator.test.Smoke">
+      <class name="GroupCalc.Calculator.test.SmokeWithAnyDigits">
         <methods>
-          <include name="testCntactCreation"/>
+          <include name="smokeWithAnySign"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- GroupCalc.Calculator.test.Smoke -->
+      </class> <!-- GroupCalc.Calculator.test.SmokeWithAnyDigits -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
