@@ -24,6 +24,7 @@ public class TestBase {
     public void setUp() throws Exception {
 
         app.init();
+        app.goTo().homePage();
 
     }
 

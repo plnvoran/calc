@@ -26,7 +26,7 @@ public class ApplicationManager {
     
     private NavigationHelper navigationHelper;
     private  PressHelper pressHelper;
-    
+    private  TypeHelper typeHelper;
    
 
 
@@ -43,7 +43,7 @@ public class ApplicationManager {
        
         navigationHelper = new NavigationHelper(wd);
         pressHelper = new PressHelper(wd);
-       
+        typeHelper = new TypeHelper(wd);
       
       
 
@@ -62,9 +62,11 @@ public class ApplicationManager {
         return navigationHelper;
     }
     
-    public PressHelper button() {
+    public PressHelper press() {
         return pressHelper;
     }
-
+    public TypeHelper type() {
+        return typeHelper;
+    }
     
 }
