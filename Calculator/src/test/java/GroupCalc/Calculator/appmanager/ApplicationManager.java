@@ -27,10 +27,7 @@ public class ApplicationManager {
     private NavigationHelper navigationHelper;
     private  PressHelper pressHelper;
     private  TypeHelper typeHelper;
-   
-
-
-
+    private  ExcelHelper excelHelper;
    
 
 
@@ -44,7 +41,7 @@ public class ApplicationManager {
         navigationHelper = new NavigationHelper(wd);
         pressHelper = new PressHelper(wd);
         typeHelper = new TypeHelper(wd);
-      
+        excelHelper = new ExcelHelper(wd);
       
 
     }
@@ -67,6 +64,10 @@ public class ApplicationManager {
     }
     public TypeHelper type() {
         return typeHelper;
+    }
+    
+    public ExcelHelper excel() {
+        return excelHelper;
     }
     
 }

@@ -47,11 +47,46 @@ public class PressHelper extends HelperBase {
 		assertEquals(getResult((By.id("result"))), etalon);
 	}
 
+	public boolean resultCheckBoolean(String etalon) {
+		
+		if (getResult((By.id("result"))).equals(etalon))
+		{
+			return true;
+		}
+		else {
+			
+			return false;
+		}
+		
+	}
+	
 	public void clear() {
 		click((By.id("button_oprcp-412cp")));
 		assertEquals(getResult((By.id("result"))), "0");
 	}
 
 	
+	public void universalDigit(String text) {
+		
+		
+		if (text.substring(0, 1).equals("-"))
+		{
+			type(By.id("result"), 	text.substring(1));
+			invertion();
+		}
+		else
+			type(By.id("result"), 	text);
+			
+		
+		assertEquals(getResult((By.id("result"))), text);
+
+	}
+	
+	public void invertion () {
+		
+		click((By.id("button_oprpm-412pm")));
+		assertEquals(getResult((By.id("tape"))).contains("-"), true);
+	}
+
 
 }
