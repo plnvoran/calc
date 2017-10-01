@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5722" started-at="2017-09-29T08:14:08Z" finished-at="2017-09-29T08:14:14Z">
+  <suite name="Default suite" duration-ms="2230" started-at="2017-10-01T10:04:23Z" finished-at="2017-10-01T10:04:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5722" started-at="2017-09-29T08:14:08Z" finished-at="2017-09-29T08:14:14Z">
+    <test name="Default test" duration-ms="2230" started-at="2017-10-01T10:04:23Z" finished-at="2017-10-01T10:04:26Z">
       <class name="GroupCalc.Calculator.test.PlusNegativeOperands">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:GroupCalc.Calculator.test.PlusNegativeOperands@42d80b78]" name="setUp" is-config="true" duration-ms="10697" started-at="2017-09-29T11:13:57Z" finished-at="2017-09-29T11:14:08Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:GroupCalc.Calculator.test.PlusNegativeOperands@42d80b78]" name="setUp" is-config="true" duration-ms="8572" started-at="2017-10-01T13:04:15Z" finished-at="2017-10-01T13:04:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="f()[pri:0, instance:GroupCalc.Calculator.test.PlusNegativeOperands@42d80b78]" name="f" duration-ms="5711" started-at="2017-09-29T11:14:08Z" finished-at="2017-09-29T11:14:14Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:GroupCalc.Calculator.test.PlusNegativeOperands@42d80b78]" name="f" duration-ms="2214" started-at="2017-10-01T13:04:23Z" finished-at="2017-10-01T13:04:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:GroupCalc.Calculator.test.PlusNegativeOperands@42d80b78]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-09-29T11:14:14Z" finished-at="2017-09-29T11:14:14Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GroupCalc.Calculator.test.PlusNegativeOperands@42d80b78]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-01T13:04:26Z" finished-at="2017-10-01T13:04:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

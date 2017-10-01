@@ -22,7 +22,7 @@ public class PlusNegativeOperands extends TestBase{
 				app.press().universalDigit(ExcelUtils.getCellData(i, 2));
 				app.press().equality();
 				
-				if (app.press().resultCheckBoolean(ExcelUtils.getCellData(i, 4))) {
+				if (app.press().resultCheckBoolean(ExcelUtils.getCellData(i, 4))==true) {
 
 					ExcelUtils.setCellData("Pass", i, 3);
 				}
