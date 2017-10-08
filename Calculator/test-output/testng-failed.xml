@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="GroupCalc.Calculator.test.PlusNegativeOperands">
+      <class name="GroupCalc.Calculator.Generator.PlusNegativeOperands">
         <methods>
           <include name="f"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
         </methods>
-      </class> <!-- GroupCalc.Calculator.test.PlusNegativeOperands -->
+      </class> <!-- GroupCalc.Calculator.Generator.PlusNegativeOperands -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

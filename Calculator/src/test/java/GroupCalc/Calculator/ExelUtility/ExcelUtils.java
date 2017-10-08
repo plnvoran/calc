@@ -101,6 +101,44 @@ public class ExcelUtils {
 
 		}
 
+		
+	}
+	
+	public static void setCellDataUn(String Result, int RowNum, int ColNum, String pathToFile) throws Exception {
+
+		try {
+
+			Row = ExcelWSheet.getRow(RowNum);
+
+			Cell = Row.getCell(ColNum);
+
+			if (Cell == null) {
+
+				Cell = Row.createCell(ColNum);
+
+				Cell.setCellValue(Result);
+
+			} else {
+
+				Cell.setCellValue(Result);
+
+			}
+
+			// Constant variables Test Data path and Test Data file name
+
+			FileOutputStream fileOut = new FileOutputStream(pathToFile);
+
+			ExcelWBook.write(fileOut);
+
+			fileOut.flush();
+
+			fileOut.close();
+
+		} catch (Exception e) {
+
+			throw (e);
+
+		}
 	}
 
 }
