@@ -2,7 +2,7 @@ package GroupCalc.Calculator.test;
 
 import org.testng.annotations.Test;
 
-public class UniversalSmoke extends TestBase{
+public class PressAllButtons extends TestBase{
 
 	
 	@Test (priority=1)
