@@ -16,6 +16,27 @@ public class PressHelper extends HelperBase {
 		click((By.id("button_opr" + digit + "-412" + digit)));
 		assertEquals(getResult((By.id("result"))), digit);
 	}
+	
+	public void twoButton(String first, String second) {
+		
+		if (first.equals("0"))
+			first="nl";
+		
+		if (second.equals("0"))
+			second="nl";
+		
+		click((By.id("button_opr" + first + "-412" + first)));
+		click((By.id("button_opr" + second + "-412" + second)));
+		
+		if (first.equals("nl"))
+			first="0";
+		
+		if (second.equals("nl"))
+			second="0";
+		
+		
+		assertEquals(getResult((By.id("result"))), first+second);
+	}
 
 	public void sign(String sign) {
 		String signStr = null;

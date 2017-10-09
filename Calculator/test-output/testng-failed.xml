@@ -5,8 +5,9 @@
     <classes>
       <class name="GroupCalc.Calculator.test.PressAllButtons">
         <methods>
-          <include name="smokePlus"/>
+          <include name="pressFromOneToNine"/>
           <include name="tearDown"/>
+          <include name="pressZero"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- GroupCalc.Calculator.test.PressAllButtons -->
