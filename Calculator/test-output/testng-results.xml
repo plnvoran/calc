@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="267" started-at="2017-10-08T08:22:34Z" finished-at="2017-10-08T08:22:34Z">
+  <suite name="Default suite" duration-ms="396" started-at="2017-10-09T06:46:16Z" finished-at="2017-10-09T06:46:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="267" started-at="2017-10-08T08:22:34Z" finished-at="2017-10-08T08:22:34Z">
-      <class name="GroupCalc.Calculator.Generator.PlusNegativeOperands">
-        <test-method status="PASS" signature="f()[pri:0, instance:GroupCalc.Calculator.Generator.PlusNegativeOperands@d8355a8]" name="f" duration-ms="249" started-at="2017-10-08T11:22:34Z" finished-at="2017-10-08T11:22:34Z">
+    <test name="Default test" duration-ms="396" started-at="2017-10-09T06:46:16Z" finished-at="2017-10-09T06:46:16Z">
+      <class name="GroupCalc.Calculator.Generator.Generator">
+        <test-method status="PASS" signature="f()[pri:0, instance:GroupCalc.Calculator.Generator.Generator@d8355a8]" name="f" duration-ms="382" started-at="2017-10-09T09:46:16Z" finished-at="2017-10-09T09:46:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- GroupCalc.Calculator.Generator.PlusNegativeOperands -->
+      </class> <!-- GroupCalc.Calculator.Generator.Generator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
