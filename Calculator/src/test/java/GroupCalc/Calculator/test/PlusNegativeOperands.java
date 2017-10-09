@@ -15,14 +15,16 @@ public class PlusNegativeOperands extends TestBase{
 		
 			ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData2, "Sheet1");
 
-			for (int i = 1; i < Constant.numberOfTests + 1; i++) {
+			int i = 1;
+			while (!ExcelUtils.getCellData(i, 0).equals("")) {
 
-				app.press().universalDigit(ExcelUtils.getCellData(i, 1));
+				
+				app.press().universalDigit(ExcelUtils.getCellData(i, 0));
 				app.press().sign("+");
-				app.press().universalDigit(ExcelUtils.getCellData(i, 2));
+				app.press().universalDigit(ExcelUtils.getCellData(i, 1));
 				app.press().equality();
 				
-				if (app.press().resultCheckBoolean(ExcelUtils.getCellData(i, 4))==true) {
+				if (app.press().resultCheckBoolean(ExcelUtils.getCellData(i, 2))==true) {
 
 					ExcelUtils.setCellData("Pass", i, 3);
 				}
@@ -34,7 +36,11 @@ public class PlusNegativeOperands extends TestBase{
 
 				app.press().clear();
 
+				i++;
 			}
+
+				
+			
 	}
 }
 

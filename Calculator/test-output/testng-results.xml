@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="396" started-at="2017-10-09T06:46:16Z" finished-at="2017-10-09T06:46:16Z">
+  <suite name="Default suite" duration-ms="39035" started-at="2017-10-09T06:55:37Z" finished-at="2017-10-09T06:56:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="396" started-at="2017-10-09T06:46:16Z" finished-at="2017-10-09T06:46:16Z">
-      <class name="GroupCalc.Calculator.Generator.Generator">
-        <test-method status="PASS" signature="f()[pri:0, instance:GroupCalc.Calculator.Generator.Generator@d8355a8]" name="f" duration-ms="382" started-at="2017-10-09T09:46:16Z" finished-at="2017-10-09T09:46:16Z">
+    <test name="Default test" duration-ms="39035" started-at="2017-10-09T06:55:37Z" finished-at="2017-10-09T06:56:16Z">
+      <class name="GroupCalc.Calculator.test.PlusNegativeOperands">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:GroupCalc.Calculator.test.PlusNegativeOperands@42d80b78]" name="setUp" is-config="true" duration-ms="8202" started-at="2017-10-09T09:55:29Z" finished-at="2017-10-09T09:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="f()[pri:0, instance:GroupCalc.Calculator.test.PlusNegativeOperands@42d80b78]" name="f" duration-ms="39023" started-at="2017-10-09T09:55:37Z" finished-at="2017-10-09T09:56:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- GroupCalc.Calculator.Generator.Generator -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GroupCalc.Calculator.test.PlusNegativeOperands@42d80b78]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-10-09T09:56:16Z" finished-at="2017-10-09T09:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GroupCalc.Calculator.test.PlusNegativeOperands -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

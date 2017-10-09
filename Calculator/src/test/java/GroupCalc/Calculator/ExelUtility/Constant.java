@@ -10,7 +10,7 @@ public class Constant {
 	
 	public static final Integer numberOfTests = 3;
 
-	public static final String File_TestData2 = "NegTestData.xls";
+	public static final String File_TestData2 = "Generator2.xls";
 	
 	public static final String File_Generator = "Generator2.xls";
 	
