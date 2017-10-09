@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import GroupCalc.Calculator.ExelUtility.Constant;
 import GroupCalc.Calculator.ExelUtility.ExcelUtils;
 
-public class PlusNegativeOperands extends TestBase {
+public class PlusTest2Operands extends TestBase {
 
 	@Test
 	public void f() throws Exception {
