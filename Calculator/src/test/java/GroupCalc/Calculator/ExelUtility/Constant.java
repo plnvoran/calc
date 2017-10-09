@@ -17,8 +17,7 @@ public class Constant {
 	public static final String minusFloat="-1.5";
 	
 	public static final String minusInt="-2";
-	
-	
+		
 	public static final String plusFloat="3";
 	
 	public static final String plusInt="4";
