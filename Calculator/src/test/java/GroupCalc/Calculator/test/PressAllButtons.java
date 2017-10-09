@@ -8,14 +8,8 @@ public class PressAllButtons extends TestBase{
 	@Test (priority=1)
 	 public void smokePlus() {
 	       
-	    
-	        app.press().button("5");
-	        app.press().sign("+");
-	        app.press().button("6");
-	        app.press().equality();
-	        app.press().resultCheck("11");
-	      
-	        app.press().invertion();
+	    for (int i=1; i<10; )
+	        app.press().button(i);
 	        app.press().clear();
 
 	    }
