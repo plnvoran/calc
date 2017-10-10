@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1080" started-at="2017-10-09T14:51:48Z" finished-at="2017-10-09T14:51:49Z">
+  <suite name="Suite" duration-ms="47112" started-at="2017-10-10T14:37:29Z" finished-at="2017-10-10T14:38:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1080" started-at="2017-10-09T14:51:48Z" finished-at="2017-10-09T14:51:49Z">
+    <test name="Smoke" duration-ms="1383" started-at="2017-10-10T14:37:29Z" finished-at="2017-10-10T14:37:30Z">
       <class name="GroupCalc.Calculator.test.Smoke">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:GroupCalc.Calculator.test.Smoke@42d80b78]" name="setUp" is-config="true" duration-ms="8037" started-at="2017-10-09T17:51:40Z" finished-at="2017-10-09T17:51:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="smokeTest()[pri:0, instance:GroupCalc.Calculator.test.Smoke@42d80b78]" name="smokeTest" duration-ms="1070" started-at="2017-10-09T17:51:48Z" finished-at="2017-10-09T17:51:49Z">
+        <test-method status="PASS" signature="smokeTest()[pri:0, instance:GroupCalc.Calculator.test.Smoke@42d80b78]" name="smokeTest" duration-ms="1373" started-at="2017-10-10T17:37:29Z" finished-at="2017-10-10T17:37:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:GroupCalc.Calculator.test.Smoke@42d80b78]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-09T17:51:49Z" finished-at="2017-10-09T17:51:49Z">
+      </class> <!-- GroupCalc.Calculator.test.Smoke -->
+    </test> <!-- Smoke -->
+    <test name="ButtonsTest" duration-ms="5090" started-at="2017-10-10T14:37:30Z" finished-at="2017-10-10T14:37:35Z">
+      <class name="GroupCalc.Calculator.test.PressAllButtons">
+        <test-method status="PASS" signature="pressZero()[pri:1, instance:GroupCalc.Calculator.test.PressAllButtons@13deb50e]" name="pressZero" duration-ms="642" started-at="2017-10-10T17:37:30Z" finished-at="2017-10-10T17:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pressZero -->
+        <test-method status="PASS" signature="pressFromOneToNine()[pri:2, instance:GroupCalc.Calculator.test.PressAllButtons@13deb50e]" name="pressFromOneToNine" duration-ms="4444" started-at="2017-10-10T17:37:31Z" finished-at="2017-10-10T17:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pressFromOneToNine -->
+      </class> <!-- GroupCalc.Calculator.test.PressAllButtons -->
+    </test> <!-- ButtonsTest -->
+    <test name="PlusTest" duration-ms="40593" started-at="2017-10-10T14:37:35Z" finished-at="2017-10-10T14:38:16Z">
+      <class name="GroupCalc.Calculator.test.Plus2Operands">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:GroupCalc.Calculator.test.Plus2Operands@5f341870]" name="setUp" is-config="true" duration-ms="9131" started-at="2017-10-10T17:37:20Z" finished-at="2017-10-10T17:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPlus2Operands()[pri:0, instance:GroupCalc.Calculator.test.Plus2Operands@5f341870]" name="testPlus2Operands" duration-ms="40592" started-at="2017-10-10T17:37:35Z" finished-at="2017-10-10T17:38:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlus2Operands -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GroupCalc.Calculator.test.Plus2Operands@5f341870]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-10T17:38:16Z" finished-at="2017-10-10T17:38:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- GroupCalc.Calculator.test.Smoke -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- GroupCalc.Calculator.test.Plus2Operands -->
+    </test> <!-- PlusTest -->
+  </suite> <!-- Suite -->
 </testng-results>

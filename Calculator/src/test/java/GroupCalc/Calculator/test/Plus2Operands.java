@@ -7,8 +7,9 @@ import GroupCalc.Calculator.ExelUtility.ExcelUtils;
 
 public class Plus2Operands extends TestBase {
 
-	@Test
-	public void f() throws Exception {
+
+	 @Test
+	public void testPlus2Operands() throws Exception {
 
 		ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData2, "Sheet1");
 

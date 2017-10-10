@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test">
-    <classes>
-      <class name="GroupCalc.Calculator.test.Smoke"/>
-      <class name="GroupCalc.Calculator.test.PressAllButtons"/>
-      <class name="GroupCalc.Calculator.test.Plus2Operands"/>
-     
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+	<test name="Smoke">
+		<classes>
+			<class name="GroupCalc.Calculator.test.Smoke" />
+			
+		</classes>
+	</test>
+
+	<test name="ButtonsTest">
+		<classes>
+
+			<class name="GroupCalc.Calculator.test.PressAllButtons" />
+
+		</classes>
+	</test>
+
+	<test name="PlusTest">
+		<classes>
+
+			<class name="GroupCalc.Calculator.test.Plus2Operands" />
+		</classes>
+	</test>
+</suite>

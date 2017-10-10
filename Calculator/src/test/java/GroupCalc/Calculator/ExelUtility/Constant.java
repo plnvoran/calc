@@ -7,8 +7,6 @@ public class Constant {
 	public static final String Path_TestData = "C:\\_1\\";
 
 	public static final String File_TestData = "TestData.xls";
-	
-	public static final Integer numberOfTests = 3;
 
 	public static final String File_TestData2 = "Generator2.xls";
 	
