@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="GroupCalc.Calculator.test.Minus2Operands">
+      <class name="GroupCalc.Calculator.test.Mult2Operands">
         <methods>
           <include name="testMinus2Operands"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- GroupCalc.Calculator.test.Minus2Operands -->
+      </class> <!-- GroupCalc.Calculator.test.Mult2Operands -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
