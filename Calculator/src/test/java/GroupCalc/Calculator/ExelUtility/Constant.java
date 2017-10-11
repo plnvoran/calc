@@ -6,11 +6,9 @@ public class Constant {
 
 	public static final String Path_TestData = "C:\\_1\\";
 
-	public static final String File_TestData = "TestData.xls";
-
-	public static final String File_TestData2 = "Generator2.xls";
+	public static final String File_Generator = "Generator.xls";
 	
-	public static final String File_Generator = "Generator2.xls";
+	public static final String Test2Operands= "Test2Operands.xls";
 	
 	public static final String minusFloat="-1.5";
 	

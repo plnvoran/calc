@@ -65,44 +65,7 @@ public class ExcelUtils {
 	// This method is to write in the Excel cell, Row num and Col num are the
 	// parameters
 
-	public static void setCellData(String Result, int RowNum, int ColNum) throws Exception {
-
-		try {
-
-			Row = ExcelWSheet.getRow(RowNum);
-
-			Cell = Row.getCell(ColNum);
-
-			if (Cell == null) {
-
-				Cell = Row.createCell(ColNum);
-
-				Cell.setCellValue(Result);
-
-			} else {
-
-				Cell.setCellValue(Result);
-
-			}
-
-			// Constant variables Test Data path and Test Data file name
-
-			FileOutputStream fileOut = new FileOutputStream(Constant.Path_TestData + Constant.File_TestData2);
-
-			ExcelWBook.write(fileOut);
-
-			fileOut.flush();
-
-			fileOut.close();
-
-		} catch (Exception e) {
-
-			throw (e);
-
-		}
-
-		
-	}
+	
 	
 	public static void setCellDataUn(String Result, int RowNum, int ColNum, String pathToFile) throws Exception {
 

@@ -10,8 +10,10 @@ public class Plus2Operands extends TestBase {
 
 	 @Test
 	public void testPlus2Operands() throws Exception {
+		 
+		 String pathToFile = Constant.Path_TestData + Constant.Test2Operands;
 
-		ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData2, "Sheet1");
+		ExcelUtils.setExcelFile(pathToFile, "Plus");
 
 		int i = 1;
 		while (!ExcelUtils.getCellData(i, 0).equals("")) {
@@ -23,12 +25,12 @@ public class Plus2Operands extends TestBase {
 
 			if (app.press().resultCheckBoolean(ExcelUtils.getCellData(i, 2)) == true) {
 
-				ExcelUtils.setCellData("Pass", i, 3);
+				ExcelUtils.setCellDataUn("Pass", i, 3, pathToFile);
 			}
 
 			else {
 
-				ExcelUtils.setCellData("Fail", i, 3);
+				ExcelUtils.setCellDataUn("Fail", i, 3, pathToFile);
 			}
 
 			app.press().clear();
