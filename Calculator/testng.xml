@@ -8,18 +8,5 @@
 		</classes>
 	</test>
 
-	<test name="ButtonsTest">
-		<classes>
-
-			<class name="GroupCalc.Calculator.test.PressAllButtons" />
-
-		</classes>
-	</test>
-
-	<test name="PlusTest">
-		<classes>
-
-			<class name="GroupCalc.Calculator.test.Plus2Operands" />
-		</classes>
-	</test>
+	
 </suite>
