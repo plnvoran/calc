@@ -15,27 +15,6 @@ public class CheckHelper extends HelperBase {
 	
 	
 	
-	public boolean divisionByZero() {
-
-		boolean result = false;
-
-		click((By.id("button_oprrv-412rv")));
-
-
-		if (isAlertPresent()) {
-			try {
-				((JavascriptExecutor) wd).executeScript("window.close()");
-			}
-
-			catch (UnhandledAlertException e) {
-				if (getResult((By.id("tape"))).equals("0")) {
-					result= true;
-				}
-			}
-		}
-
-		return result;
-
-	}
+	
 	
 }

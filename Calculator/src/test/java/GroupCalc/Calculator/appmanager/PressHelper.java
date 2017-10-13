@@ -65,7 +65,36 @@ public class PressHelper extends HelperBase {
 		assertEquals(getResult((By.id("tape"))).contains("="), true);
 	}
 
-	
+	public boolean equalityForDivision() {
+
+		boolean result = false;
+
+		if (getResult((By.id("result"))).equals("0")) {
+
+			try {
+				click((By.id("button_oprrv-412rv")));
+
+			}
+
+			catch (UnhandledAlertException e) {
+
+				if (isAlertPresent()) {
+
+					((JavascriptExecutor) wd).executeScript("window.close()");
+
+					if (getResult((By.id("result"))).equals("0")) {
+						result = true;
+					}
+				}
+			}
+
+		} else {
+			click((By.id("button_oprrv-412rv")));
+
+			result = true;
+		}
+		return result;
+	}
 
 	public void resultCheck(String etalon) {
 		assertEquals(getResult((By.id("result"))), etalon);

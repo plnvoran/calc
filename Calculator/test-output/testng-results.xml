@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3392" started-at="2017-10-12T12:07:18Z" finished-at="2017-10-12T12:07:21Z">
+  <suite name="Default suite" duration-ms="1112" started-at="2017-10-13T07:24:38Z" finished-at="2017-10-13T07:24:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3392" started-at="2017-10-12T12:07:18Z" finished-at="2017-10-12T12:07:21Z">
+    <test name="Default test" duration-ms="1112" started-at="2017-10-13T07:24:38Z" finished-at="2017-10-13T07:24:39Z">
       <class name="GroupCalc.Calculator.test.DevZero">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:GroupCalc.Calculator.test.DevZero@5c3bd550]" name="setUp" is-config="true" duration-ms="8206" started-at="2017-10-12T15:07:09Z" finished-at="2017-10-12T15:07:18Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:GroupCalc.Calculator.test.DevZero@6a192cfe]" name="setUp" is-config="true" duration-ms="8937" started-at="2017-10-13T10:24:29Z" finished-at="2017-10-13T10:24:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="f()[pri:0, instance:GroupCalc.Calculator.test.DevZero@5c3bd550]" name="f" duration-ms="3382" started-at="2017-10-12T15:07:18Z" finished-at="2017-10-12T15:07:21Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:GroupCalc.Calculator.test.DevZero@6a192cfe]" name="f" duration-ms="1099" started-at="2017-10-13T10:24:38Z" finished-at="2017-10-13T10:24:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:GroupCalc.Calculator.test.DevZero@5c3bd550]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-12T15:07:21Z" finished-at="2017-10-12T15:07:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GroupCalc.Calculator.test.DevZero@6a192cfe]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-13T10:24:39Z" finished-at="2017-10-13T10:24:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

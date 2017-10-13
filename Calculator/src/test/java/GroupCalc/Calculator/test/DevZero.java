@@ -7,25 +7,22 @@ public class DevZero extends TestBase {
 	@Test
 	public void f() {
 
-		app.press().universalDigit("0");
+		app.press().universalDigit("5");
 		app.press().sign("/");
 		app.press().universalDigit("0");
-
-		boolean ifSecondOperIsZero = app.press().resultCheckBoolean("0");
-
-		app.press().equality();
-
-		if (ifSecondOperIsZero == true) {
-			if (app.check().divisionByZero()) {
+		
+		if (app.press().equalityForDivision()) {
+			
 
 				System.out.println("###############   OK");
 				
-			} else {
+			} 
+		else {
 
 				System.out.println("!!!!!!!!!!!!!!!!!!!!  NO OK");
 			}
 
-		}
+		
 
 	}
 
