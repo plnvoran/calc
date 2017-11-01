@@ -1,25 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46966" started-at="2017-11-01T11:29:20Z" finished-at="2017-11-01T11:30:07Z">
+  <suite name="Suite" duration-ms="188252" started-at="2017-11-01T13:46:02Z" finished-at="2017-11-01T13:49:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46966" started-at="2017-11-01T11:29:20Z" finished-at="2017-11-01T11:30:07Z">
-      <class name="GroupCalc.Calculator.test.Div2Operands">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:GroupCalc.Calculator.test.Div2Operands@5c3bd550]" name="setUp" is-config="true" duration-ms="8151" started-at="2017-11-01T14:29:12Z" finished-at="2017-11-01T14:29:20Z">
+    <test name="Smoke" duration-ms="1736" started-at="2017-11-01T13:46:02Z" finished-at="2017-11-01T13:46:04Z">
+      <class name="GroupCalc.Calculator.test.Smoke">
+        <test-method status="PASS" signature="smokeTest()[pri:0, instance:GroupCalc.Calculator.test.Smoke@5c3bd550]" name="smokeTest" duration-ms="1725" started-at="2017-11-01T16:46:02Z" finished-at="2017-11-01T16:46:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testMinus2Operands()[pri:0, instance:GroupCalc.Calculator.test.Div2Operands@5c3bd550]" name="testMinus2Operands" duration-ms="46956" started-at="2017-11-01T14:29:20Z" finished-at="2017-11-01T14:30:07Z">
+        </test-method> <!-- smokeTest -->
+      </class> <!-- GroupCalc.Calculator.test.Smoke -->
+    </test> <!-- Smoke -->
+    <test name="AllButtons" duration-ms="5182" started-at="2017-11-01T13:46:04Z" finished-at="2017-11-01T13:46:09Z">
+      <class name="GroupCalc.Calculator.test.PressAllButtons">
+        <test-method status="PASS" signature="pressZero()[pri:1, instance:GroupCalc.Calculator.test.PressAllButtons@31ef45e3]" name="pressZero" duration-ms="686" started-at="2017-11-01T16:46:04Z" finished-at="2017-11-01T16:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pressZero -->
+        <test-method status="PASS" signature="pressFromOneToNine()[pri:2, instance:GroupCalc.Calculator.test.PressAllButtons@31ef45e3]" name="pressFromOneToNine" duration-ms="4494" started-at="2017-11-01T16:46:05Z" finished-at="2017-11-01T16:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pressFromOneToNine -->
+      </class> <!-- GroupCalc.Calculator.test.PressAllButtons -->
+    </test> <!-- AllButtons -->
+    <test name="Div" duration-ms="68465" started-at="2017-11-01T13:46:09Z" finished-at="2017-11-01T13:47:18Z">
+      <class name="GroupCalc.Calculator.test.Div2Operands">
+        <test-method status="PASS" signature="testMinus2Operands()[pri:0, instance:GroupCalc.Calculator.test.Div2Operands@589838eb]" name="testMinus2Operands" duration-ms="68463" started-at="2017-11-01T16:46:09Z" finished-at="2017-11-01T16:47:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMinus2Operands -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:GroupCalc.Calculator.test.Div2Operands@5c3bd550]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-11-01T14:30:07Z" finished-at="2017-11-01T14:30:07Z">
+      </class> <!-- GroupCalc.Calculator.test.Div2Operands -->
+    </test> <!-- Div -->
+    <test name="Min" duration-ms="38865" started-at="2017-11-01T13:47:18Z" finished-at="2017-11-01T13:47:57Z">
+      <class name="GroupCalc.Calculator.test.Minus2Operands">
+        <test-method status="PASS" signature="testMinus2Operands()[pri:0, instance:GroupCalc.Calculator.test.Minus2Operands@73ad2d6]" name="testMinus2Operands" duration-ms="38864" started-at="2017-11-01T16:47:18Z" finished-at="2017-11-01T16:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinus2Operands -->
+      </class> <!-- GroupCalc.Calculator.test.Minus2Operands -->
+    </test> <!-- Min -->
+    <test name="Mult" duration-ms="37762" started-at="2017-11-01T13:47:57Z" finished-at="2017-11-01T13:48:34Z">
+      <class name="GroupCalc.Calculator.test.Mult2Operands">
+        <test-method status="PASS" signature="testMinus2Operands()[pri:0, instance:GroupCalc.Calculator.test.Mult2Operands@31a5c39e]" name="testMinus2Operands" duration-ms="37761" started-at="2017-11-01T16:47:57Z" finished-at="2017-11-01T16:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMinus2Operands -->
+      </class> <!-- GroupCalc.Calculator.test.Mult2Operands -->
+    </test> <!-- Mult -->
+    <test name="Plus" duration-ms="36140" started-at="2017-11-01T13:48:34Z" finished-at="2017-11-01T13:49:11Z">
+      <class name="GroupCalc.Calculator.test.Plus2Operands">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:GroupCalc.Calculator.test.Plus2Operands@59494225]" name="setUp" is-config="true" duration-ms="8020" started-at="2017-11-01T16:45:54Z" finished-at="2017-11-01T16:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPlus2Operands()[pri:0, instance:GroupCalc.Calculator.test.Plus2Operands@59494225]" name="testPlus2Operands" duration-ms="36138" started-at="2017-11-01T16:48:34Z" finished-at="2017-11-01T16:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlus2Operands -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GroupCalc.Calculator.test.Plus2Operands@59494225]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-11-01T16:49:11Z" finished-at="2017-11-01T16:49:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- GroupCalc.Calculator.test.Div2Operands -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- GroupCalc.Calculator.test.Plus2Operands -->
+    </test> <!-- Plus -->
+  </suite> <!-- Suite -->
 </testng-results>

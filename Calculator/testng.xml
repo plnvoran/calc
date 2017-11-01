@@ -4,9 +4,37 @@
 	<test name="Smoke">
 		<classes>
 			<class name="GroupCalc.Calculator.test.Smoke" />
-			
+		</classes>
+	</test>
+	
+	<test name="AllButtons">
+		<classes>
+			<class name="GroupCalc.Calculator.test.PressAllButtons" />
+		</classes>
+	</test>
+	
+	<test name="Div">
+		<classes>
+			<class name="GroupCalc.Calculator.test.Div2Operands" />
+		</classes>
+	</test>
+	
+	<test name="Min">
+		<classes>
+			<class name="GroupCalc.Calculator.test.Minus2Operands" />
+		</classes>
+	</test>
+	
+	<test name="Mult">
+		<classes>
+			<class name="GroupCalc.Calculator.test.Mult2Operands" />
+		</classes>
+	</test>
+	
+	<test name="Plus">
+		<classes>
+			<class name="GroupCalc.Calculator.test.Plus2Operands" />
 		</classes>
 	</test>
 
-	
 </suite>
