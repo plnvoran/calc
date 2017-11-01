@@ -4,7 +4,9 @@ package GroupCalc.Calculator.ExelUtility;
 
 public class Constant {
 
-	public static final String Path_TestData = "C:\\_1\\";
+//	public static final String Path_TestData = "C:\\_1\\";
+	
+	public static final String Path_TestData = "src\\test\\java\\resourses\\";
 
 	public static final String File_Generator = "Generator.xls";
 	

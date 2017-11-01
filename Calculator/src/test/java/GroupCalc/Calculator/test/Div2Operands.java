@@ -21,7 +21,7 @@ public class Div2Operands extends TestBase {
 			app.press().sign("/");
 			app.press().universalDigit(ExcelUtils.getCellData(i, 1));
 
-			if (app.press().equalityForDivision()) {
+			if (app.press().equalityForDivision() && app.press().resultCheckBoolean(ExcelUtils.getCellData(i, 2)) == true) {
 
 				ExcelUtils.setCellDataUn("Pass", i, 3, pathToFile);
 			}

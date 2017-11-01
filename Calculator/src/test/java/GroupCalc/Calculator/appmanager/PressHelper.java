@@ -72,20 +72,26 @@ public class PressHelper extends HelperBase {
 		if (getResult((By.id("result"))).equals("0")) {
 
 			try {
+
+				// click =
 				click((By.id("button_oprrv-412rv")));
+
+				System.out.println("Before accept");
+				wd.switchTo().alert().accept();
+				System.out.println("After accept");
+
+				if (getResult((By.id("result"))).equals("0")) {
+					result = true;
+				}
 
 			}
 
-			catch (UnhandledAlertException e) {
+			catch (
 
-				if (isAlertPresent()) {
+			NoAlertPresentException e) {
 
-					((JavascriptExecutor) wd).executeScript("window.close()");
+				click((By.id("button_oprcp-412cp")));
 
-					if (getResult((By.id("result"))).equals("0")) {
-						result = true;
-					}
-				}
 			}
 
 		} else {
@@ -93,6 +99,7 @@ public class PressHelper extends HelperBase {
 
 			result = true;
 		}
+
 		return result;
 	}
 
